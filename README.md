@@ -2,9 +2,9 @@
 ## fall-22-mp1-work
 
 
-### Last Name:  
-### First Name: 
-### GitHub Username: 
+### Last Name:  Huynh
+### First Name: Andy
+### GitHub Username: AndyH20
 
 ---
 #### General Workflow: 
