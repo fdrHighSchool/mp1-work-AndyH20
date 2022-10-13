@@ -8,6 +8,7 @@ public class UserName {
     System.out.println("Are you a student or teacher?");
     String c = s.nextLine();
     
+    // choose student or teacher
     if(c.equalsIgnoreCase("Student")) {
         System.out.print("Enter your first name: ");
         String firstName = s.nextLine();
