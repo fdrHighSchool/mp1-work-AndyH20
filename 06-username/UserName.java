@@ -5,7 +5,7 @@ public class UserName {
     // create Scanner object
     Scanner s = new Scanner(System.in);
     
-    System.out.println("Are you a student or teacher?");
+    System.out.print("Are you a student or teacher: ");
     String c = s.nextLine();
     
     // choose student or teacher
