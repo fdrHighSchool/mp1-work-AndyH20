@@ -29,8 +29,11 @@ public class UserName {
         
         System.out.println(getInital(firstName) + (lastName) + (fav) + "@schools.nyc.gov");
     }
+    System.out.println("How long do you want your password to be?");
+    int pass = s.nextInt();
+    
+    generatePassword(pass);
 
-generatePassword(8);
     s.close();
   } // end main method
 
@@ -48,20 +51,30 @@ generatePassword(8);
 
 public static String generatePassword(int length) {
     String password = "";
+    
+    for(int i = 0; i < length; i++) {
     int ca = (int)(Math.random() * (90-65+1) + 65);
     char cap = (char)(ca);
-    System.out.println(cap + " " + cap);
+        //65-90 cap
+        
+    //int lo = (int)(Math.random() * (122-97+1) + 97);
+    //char low = (char)(lo);
+        //97-122 lower case
+    //int sy = (int)(Math.random() * (47-33+1) + 33);
+    //char sym = (char)(sy);
+        //33-47 special symbols
     
-    //generate a random number 
-    //65-90 cap
-    //33-47 special symbols
-    //97-122 ower case
+    password += cap;
+} // end loop
+    System.out.println(password);
+
+
     
     //convert integer to char c =(char)i;
     
     //add the char to the password string
     
-    return (password);
+    return(password);
 } //end pass
   /*
    * Name: generatePassword
